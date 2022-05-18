@@ -8,15 +8,9 @@ Behaviours
 -   \[`DisplayWebCam`\]
 -   \[`DisplayWebcamUI`\]
 
-
-
-
 ChromaKeyShader
 ------------------------
 This shader allows for Images/Videos/Gifs to have their backgrounds chroma keyed out.
-    
-### Script    
-In our start function we get a list of all the webcams the player currently has, the console will show what number the webcam is assigned to.
     
 ### Properties
 -   `Mask Color` The colour that the shader will remove.
