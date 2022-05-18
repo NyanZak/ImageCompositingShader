@@ -40,9 +40,11 @@ In our start function we get a list of all the webcams the player currently has,
         {
             print("Webcam available: " + devices[i].name);
         }
+        
      ```     
     
 We then render the webcam onto the plane the script is attatched to, since my Webcam is the 2nd one on the list I have used '1' in the script.
+
         
      ```     
         Renderer rend = this.GetComponentInChildren<Renderer>();
